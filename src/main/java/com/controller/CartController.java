@@ -55,7 +55,7 @@ public class CartController
 	
 
 	
-    @RequestMapping(value="/addToCart/{id}")
+ @RequestMapping(value="/addToCart/{id}")
     public String addProductToCart(@PathVariable("id") int id, HttpSession session,Model model,RedirectAttributes attributes)
     {
     	
